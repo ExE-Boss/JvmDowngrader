@@ -65,7 +65,7 @@ public class J_L_I_LambdaMetafactory {
         Type[] altInterfaces = null;
         Type[] altMethods = null;
 
-        if ((flags & FLAG_MARKERS) != 0){
+        if ((flags & FLAG_MARKERS) != 0) {
             int count = (int) args[argIndex++];
             if (count > 0) {
                 altInterfaces = new Type[count];
@@ -75,7 +75,7 @@ public class J_L_I_LambdaMetafactory {
             }
         }
 
-        if ((flags & FLAG_BRIDGES) != 0){
+        if ((flags & FLAG_BRIDGES) != 0) {
             int count = (int) args[argIndex++];
             if (count > 0) {
                 altMethods = new Type[count];
